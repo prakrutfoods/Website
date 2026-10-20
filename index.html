@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PTF - Prakrut Foods | Fresh Grated Coconut & Premium Food Supply</title>
+    <title>PTF - Prakrut Foods | Fresh Grated Coconut & Premium Food Staples</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -51,17 +51,17 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .gradient-bg {
-            background: linear-gradient(135deg, #052e16 0%, #0f5132 50%, #14532d 100%);
+            background: linear-gradient(135deg, #022c22 0%, #064e3b 50%, #047857 100%);
         }
         .hero-pattern {
-            background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+            background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
             background-size: 24px 24px;
         }
         .cta-pulse {
             animation: pulse-border 2.5s infinite;
         }
         @keyframes pulse-border {
-            0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7); }
+            0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.8); }
             70% { box-shadow: 0 0 0 16px rgba(249, 115, 22, 0); }
             100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0); }
         }
@@ -69,128 +69,138 @@
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
 
-    <div class="bg-brand-950 text-emerald-100 text-xs sm:text-sm py-2 px-4 text-center font-medium border-b border-brand-900 sticky top-0 z-50">
+    <!-- Top Announcement Bar -->
+    <div class="bg-slate-950 text-emerald-300 text-xs sm:text-sm py-2 px-4 text-center font-medium border-b border-emerald-900/50 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto flex items-center justify-between sm:justify-center space-x-2">
-            <span class="inline-flex items-center rounded-full bg-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-300">
-                <i class="fa-solid fa-shield-halved mr-1.5"></i> FSSAI Lic: 11523080000007
+            <span class="inline-flex items-center rounded-full bg-emerald-500/20 px-2.5 py-0.5 text-xs font-bold text-emerald-300">
+                <i class="fa-solid fa-shield-halved mr-1.5 text-emerald-400"></i> FSSAI Lic: 11523080000007
             </span>
-            <span class="hidden sm:inline text-emerald-400/50">•</span>
-            <span class="hidden sm:inline text-slate-200">100% Natural • Retains Milk & Fiber • Zero Preservatives</span>
-            <span class="hidden md:inline text-emerald-400/50">•</span>
-            <a href="tel:+918380069530" class="text-emerald-300 hover:underline font-bold">
+            <span class="hidden sm:inline text-emerald-500/50">•</span>
+            <span class="hidden sm:inline text-white font-semibold">100% Natural • Retains Milk & Fiber • Zero Preservatives</span>
+            <span class="hidden md:inline text-emerald-500/50">•</span>
+            <a href="tel:+918380069530" class="text-amber-300 hover:text-amber-200 font-extrabold flex items-center">
                 <i class="fa-solid fa-phone text-xs mr-1"></i> +91 8380069530
             </a>
         </div>
     </div>
 
     <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm sticky top-[33px] z-40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <!-- Brand Logo -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between py-2">
+            <!-- PTF Official Brand Logo -->
             <div class="flex items-center space-x-3">
-                <div class="bg-brand-700 text-white font-black text-xl px-3 py-1.5 rounded-lg shadow-sm tracking-wider">
-                    PTF
+                <div class="bg-emerald-900 p-2 rounded-xl flex items-center justify-center shadow-md border border-emerald-700">
+                    <!-- Brand Vector Emblem -->
+                    <svg class="w-9 h-9" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" rx="18" fill="#14532d"/>
+                        <circle cx="50" cy="50" r="32" fill="#FAF7F2" stroke="#f97316" stroke-width="4"/>
+                        <path d="M38 52C38 42 45 35 55 35C65 35 70 42 70 52C70 65 52 68 50 72C48 68 38 65 38 52Z" fill="#15803d"/>
+                        <text x="50" y="58" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">PTF</text>
+                    </svg>
                 </div>
                 <div>
-                    <span class="block text-xs text-slate-500 font-bold tracking-wider uppercase leading-none">Prakrut Foods</span>
-                    <span class="block text-sm sm:text-base font-extrabold text-slate-900 leading-tight">Fresh Grated Coconut & Staples</span>
+                    <div class="flex items-center space-x-1.5">
+                        <span class="text-lg font-black tracking-tight text-emerald-950 uppercase leading-none">Prakrut Foods</span>
+                        <span class="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-1.5 py-0.5 rounded">TM</span>
+                    </div>
+                    <span class="block text-xs font-bold text-slate-600 leading-tight mt-0.5">Fresh Grated Coconut & Food Staples</span>
                 </div>
             </div>
 
             <!-- Navigation Links -->
-            <nav class="hidden md:flex items-center space-x-6 text-xs sm:text-sm font-semibold text-slate-700">
-                <a href="#products" class="hover:text-brand-700 transition-colors">Products</a>
-                <a href="#calculator" class="hover:text-brand-700 transition-colors">Order Calculator</a>
-                <a href="#specifications" class="hover:text-brand-700 transition-colors">Specs & Quality</a>
-                <a href="#about" class="hover:text-brand-700 transition-colors">About PTF</a>
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-bold text-slate-700">
+                <a href="#products" class="hover:text-emerald-700 transition-colors">Products</a>
+                <a href="#calculator" class="hover:text-emerald-700 transition-colors">Order Calculator</a>
+                <a href="#specifications" class="hover:text-emerald-700 transition-colors">Specs & Quality</a>
+                <a href="#about" class="hover:text-emerald-700 transition-colors">About PTF</a>
             </nav>
 
             <!-- Direct Actions -->
             <div class="flex items-center space-x-3">
-                <a href="https://wa.me/918380069530?text=Hi%20PTF,%20I%20want%20to%20inquire%20about%20Fresh%20Grated%20Coconut." target="_blank" class="hidden sm:inline-flex items-center bg-emerald-100 text-emerald-800 hover:bg-emerald-200 text-xs font-bold px-3.5 py-2 rounded-lg transition-all">
-                    <i class="fa-brands fa-whatsapp text-emerald-600 text-sm mr-1.5"></i> WhatsApp Us
+                <a href="https://wa.me/918380069530?text=Hi%20PTF,%20I%20want%20to%20inquire%20about%20Fresh%20Grated%20Coconut." target="_blank" class="hidden sm:inline-flex items-center bg-emerald-100 hover:bg-emerald-200 text-emerald-900 text-xs sm:text-sm font-extrabold px-3.5 py-2.5 rounded-xl transition-all border border-emerald-300">
+                    <i class="fa-brands fa-whatsapp text-emerald-600 text-base mr-1.5"></i> WhatsApp Us
                 </a>
-                <a href="#order-form" class="inline-flex items-center bg-accent-600 hover:bg-accent-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-md hover:shadow-lg transition-all transform active:scale-95">
+                <a href="#order-form" class="inline-flex items-center bg-accent-600 hover:bg-accent-700 text-white font-extrabold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all transform active:scale-95">
                     <i class="fa-solid fa-paper-plane mr-2"></i> Get Bulk / Retail Quote
                 </a>
             </div>
         </div>
     </header>
 
-    <section class="gradient-bg hero-pattern text-white pt-8 pb-16 md:pt-14 md:pb-24 relative overflow-hidden">
+    <section class="gradient-bg hero-pattern text-white pt-10 pb-16 md:pt-14 md:pb-24 relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
                 
-                <!-- Left PAS Headline & Value Stack -->
-                <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
-                    <div class="inline-flex items-center bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wide">
-                        <i class="fa-solid fa-location-dot text-emerald-400 mr-2"></i> Daily Fresh Grating Facility in Kothrud, Pune
+                <!-- Left Hero Content with High Contrast Text -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center bg-emerald-950/90 border border-emerald-400/40 text-emerald-200 px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold tracking-wide shadow-md">
+                        <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i> Daily Fresh Grating Unit in Kothrud, Pune
                     </div>
                     
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white drop-shadow-sm">
                         Stop Scraping Coconuts By Hand.
-                        <span class="block text-emerald-300 mt-1">Get Pure, Milk-Rich Grated Coconut Delivered Fresh Daily.</span>
+                        <span class="block text-emerald-300 mt-2 font-extrabold">Get Pure, Milk-Rich Grated Coconut Delivered Fresh Daily.</span>
                     </h1>
 
-                    <p class="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 font-normal">
-                        Unlike dry commercial powders that squeeze out natural oils, <strong>PTF Fresh Grated Coconut</strong> retains 100% natural fiber, moisture, and rich coconut milk for authentic home-cooked flavor.
-                    </p>
+                    <!-- High Contrast Sub-headline Box -->
+                    <div class="bg-emerald-950/70 backdrop-blur-md p-4 rounded-xl border border-emerald-500/30 text-slate-100 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium">
+                        Unlike dry commercial powders that squeeze out natural oils, <strong class="text-amber-300 font-extrabold underline decoration-amber-500">PTF Fresh Grated Coconut</strong> retains 100% natural fiber, moisture, and rich coconut milk for authentic home-cooked flavor.
+                    </div>
 
-                    <!-- Key Benefit Bullets -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-left max-w-xl mx-auto lg:mx-0">
-                        <div class="flex items-center space-x-2.5 text-sm sm:text-base font-medium text-emerald-100">
-                            <i class="fa-solid fa-circle-check text-accent-500 text-lg flex-shrink-0"></i>
-                            <span>Retains Full Natural Fiber & Milk</span>
+                    <!-- Key Benefit Bullets with High-Contrast Text -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2 text-left max-w-xl mx-auto lg:mx-0">
+                        <div class="flex items-center space-x-3 bg-emerald-900/60 p-2.5 rounded-lg border border-emerald-600/40">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-xl flex-shrink-0"></i>
+                            <span class="text-sm font-extrabold text-white">Retains Full Natural Fiber & Milk</span>
                         </div>
-                        <div class="flex items-center space-x-2.5 text-sm sm:text-base font-medium text-emerald-100">
-                            <i class="fa-solid fa-circle-check text-accent-500 text-lg flex-shrink-0"></i>
-                            <span>Zero Artificial Flavors or Colors</span>
+                        <div class="flex items-center space-x-3 bg-emerald-900/60 p-2.5 rounded-lg border border-emerald-600/40">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-xl flex-shrink-0"></i>
+                            <span class="text-sm font-extrabold text-white">Zero Artificial Flavors or Colors</span>
                         </div>
-                        <div class="flex items-center space-x-2.5 text-sm sm:text-base font-medium text-emerald-100">
-                            <i class="fa-solid fa-circle-check text-accent-500 text-lg flex-shrink-0"></i>
-                            <span>Ready-To-Use 250g & 1kg Fresh Packs</span>
+                        <div class="flex items-center space-x-3 bg-emerald-900/60 p-2.5 rounded-lg border border-emerald-600/40">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-xl flex-shrink-0"></i>
+                            <span class="text-sm font-extrabold text-white">Ready-To-Use 250g & 1kg Fresh Packs</span>
                         </div>
-                        <div class="flex items-center space-x-2.5 text-sm sm:text-base font-medium text-emerald-100">
-                            <i class="fa-solid fa-circle-check text-accent-500 text-lg flex-shrink-0"></i>
-                            <span>FSSAI Certified Food Grade Processing</span>
+                        <div class="flex items-center space-x-3 bg-emerald-900/60 p-2.5 rounded-lg border border-emerald-600/40">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-xl flex-shrink-0"></i>
+                            <span class="text-sm font-extrabold text-white">FSSAI Certified Food Processing</span>
                         </div>
                     </div>
 
-                    <!-- Direct Action Buttons -->
+                    <!-- Hero Call to Action Buttons -->
                     <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                        <a href="https://wa.me/918380069530?text=Hi%20PTF,%20I%20want%20to%20order%20Fresh%20Grated%20Coconut." target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-base px-6 py-3.5 rounded-xl shadow-xl transition-all transform active:scale-95">
-                            <i class="fa-brands fa-whatsapp text-xl mr-2"></i> Order on WhatsApp (+91 8380069530)
+                        <a href="https://wa.me/918380069530?text=Hi%20PTF,%20I%20want%20to%20order%20Fresh%20Grated%20Coconut." target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-black text-base px-6 py-4 rounded-xl shadow-xl transition-all transform active:scale-95 border-2 border-emerald-200">
+                            <i class="fa-brands fa-whatsapp text-2xl mr-2 text-emerald-950"></i> Order on WhatsApp (+91 8380069530)
                         </a>
-                        <a href="#calculator" class="w-full sm:w-auto inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold text-base px-6 py-3.5 rounded-xl border border-white/20 transition-all">
-                            Estimate Order Costs
+                        <a href="#calculator" class="w-full sm:w-auto inline-flex items-center justify-center bg-slate-900/80 hover:bg-slate-900 text-amber-300 font-extrabold text-base px-6 py-4 rounded-xl border-2 border-amber-400/60 transition-all shadow-lg">
+                            <i class="fa-solid fa-calculator mr-2 text-amber-400"></i> Estimate Order Costs
                         </a>
                     </div>
                 </div>
 
-                <!-- Right Quick Lead Capture Form -->
                 <div class="lg:col-span-5" id="order-form">
-                    <div class="bg-white rounded-2xl shadow-2xl p-6 sm:p-7 text-slate-800 border border-slate-100 relative">
-                        <div class="absolute -top-3 right-6 bg-accent-600 text-white text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow">
+                    <div class="bg-white rounded-2xl shadow-2xl p-6 sm:p-7 text-slate-800 border-2 border-slate-200 relative">
+                        <div class="absolute -top-3 right-6 bg-accent-600 text-white text-[11px] font-black uppercase tracking-wider px-3.5 py-1 rounded-full shadow-md">
                             Direct Supply Desk
                         </div>
 
                         <h3 class="text-xl font-extrabold text-slate-900 mb-1">Request Fresh Quote / Sample</h3>
-                        <p class="text-xs text-slate-500 mb-5">Serving Homes, Caterers, Hotels, Cloud Kitchens & Sweets Makers across Pune.</p>
+                        <p class="text-xs font-semibold text-slate-600 mb-5">Serving Homes, Caterers, Hotels, Cloud Kitchens & Sweets Makers across Pune.</p>
 
                         <form id="leadForm" class="space-y-4" onsubmit="handleFormSubmit(event)">
                             <div>
-                                <label for="fullName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Full Name / Business Name *</label>
-                                <input type="text" id="fullName" required placeholder="e.g. Rahul Sharma / Swad Catering" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none transition-all">
+                                <label for="fullName" class="block text-xs font-extrabold text-slate-800 uppercase tracking-wider mb-1">Full Name / Business Name *</label>
+                                <input type="text" id="fullName" required placeholder="e.g. Rahul Sharma / Swad Catering" class="w-full px-3.5 py-2.5 rounded-lg border-2 border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm font-semibold text-slate-900 outline-none transition-all">
                             </div>
 
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 <div>
-                                    <label for="phone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Phone Number *</label>
-                                    <input type="tel" id="phone" required placeholder="98XXXXXXXX" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none transition-all">
+                                    <label for="phone" class="block text-xs font-extrabold text-slate-800 uppercase tracking-wider mb-1">Phone Number *</label>
+                                    <input type="tel" id="phone" required placeholder="98XXXXXXXX" class="w-full px-3.5 py-2.5 rounded-lg border-2 border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm font-semibold text-slate-900 outline-none transition-all">
                                 </div>
                                 <div>
-                                    <label for="userType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Segment *</label>
-                                    <select id="userType" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none transition-all bg-white">
-                                        <option value="Home Kitchen / Retail">Home Kitchen / Household</option>
+                                    <label for="userType" class="block text-xs font-extrabold text-slate-800 uppercase tracking-wider mb-1">Segment *</label>
+                                    <select id="userType" class="w-full px-3.5 py-2.5 rounded-lg border-2 border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm font-bold text-slate-900 outline-none transition-all bg-white">
+                                        <option value="Home Kitchen / Household">Home Kitchen / Household</option>
                                         <option value="Restaurant / Cloud Kitchen">Restaurant / Cloud Kitchen</option>
                                         <option value="Caterer / Hotel">Caterer / Hotel</option>
                                         <option value="Sweet Shop / Bakery">Sweet Shop / Bakery</option>
@@ -199,8 +209,8 @@
                             </div>
 
                             <div>
-                                <label for="packSize" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Required Product & Pack</label>
-                                <select id="packSize" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none transition-all bg-white">
+                                <label for="packSize" class="block text-xs font-extrabold text-slate-800 uppercase tracking-wider mb-1">Required Product & Pack</label>
+                                <select id="packSize" class="w-full px-3.5 py-2.5 rounded-lg border-2 border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm font-bold text-slate-900 outline-none transition-all bg-white">
                                     <option value="Fresh Grated Coconut - 250g Household Pack">Fresh Grated Coconut - 250g Household Pack</option>
                                     <option value="Fresh Grated Coconut - 1kg Bulk Pack">Fresh Grated Coconut - 1kg Bulk Pack</option>
                                     <option value="PTF Premium Dry Fruits Range">PTF Premium Dry Fruits Range</option>
@@ -208,18 +218,18 @@
                                 </select>
                             </div>
 
-                            <button type="submit" class="w-full cta-pulse bg-accent-600 hover:bg-accent-700 text-white font-extrabold text-base py-3.5 px-6 rounded-xl shadow-lg transition-all duration-200 mt-2">
+                            <button type="submit" class="w-full cta-pulse bg-accent-600 hover:bg-accent-700 text-white font-black text-base py-3.5 px-6 rounded-xl shadow-lg transition-all duration-200 mt-2">
                                 Request Immediate Pricing <i class="fa-solid fa-arrow-right ml-2"></i>
                             </button>
-                            <p class="text-[11px] text-center text-slate-400 mt-2">
-                                <i class="fa-solid fa-lock mr-1"></i> Direct response from Founder Yogesh Nadgauda within 2 hours.
+                            <p class="text-xs font-bold text-center text-slate-500 mt-2">
+                                <i class="fa-solid fa-lock text-emerald-600 mr-1"></i> Direct response from Founder Yogesh Nadgauda within 2 hours.
                             </p>
                         </form>
 
                         <div id="formSuccess" class="hidden text-center py-8 space-y-3">
-                            <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">✓</div>
+                            <div class="w-16 h-16 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">✓</div>
                             <h4 class="text-xl font-bold text-slate-900">Inquiry Received!</h4>
-                            <p class="text-sm text-slate-600">Thank you. Redirecting you directly to WhatsApp for immediate pricing confirmation...</p>
+                            <p class="text-sm font-semibold text-slate-600">Thank you. Redirecting you directly to WhatsApp for immediate pricing confirmation...</p>
                         </div>
                     </div>
                 </div>
@@ -231,41 +241,41 @@
     <section class="py-16 bg-white border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
-                <span class="text-xs font-bold text-brand-700 uppercase tracking-wider bg-brand-50 px-3 py-1 rounded-full">The Kitchen Struggle</span>
-                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3">Why Preparing Coconut Yourself Slows Down Your Kitchen</h2>
-                <p class="text-slate-600 mt-2">Authentic Indian cuisine relies heavily on fresh coconut, but manual preparation creates major bottlenecks.</p>
+                <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">The Kitchen Struggle</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3">Why Manual Coconut Preparation Slows Down Your Kitchen</h2>
+                <p class="text-slate-600 font-medium mt-2">Authentic Indian cuisine relies heavily on fresh coconut, but manual preparation creates major bottlenecks.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Pain Point 1 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-all">
-                    <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-500 transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-rose-100 text-rose-700 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
                         <i class="fa-solid fa-hand-holding-medical"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Time-Consuming & Risky Scraping</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed">
+                    <p class="text-sm font-medium text-slate-600 leading-relaxed">
                         Cracking shells, hand scraping, and cleaning sharp blades wastes up to 30 minutes every day and risks accidental cut injuries during busy prep hours.
                     </p>
                 </div>
 
                 <!-- Pain Point 2 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-all">
-                    <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-500 transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
                         <i class="fa-solid fa-droplet-slash"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Dry, Tasteless Market Powders</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed">
+                    <p class="text-sm font-medium text-slate-600 leading-relaxed">
                         Standard commercial desiccated powders squeeze out all natural oils and moisture, leaving rubbery, flavorless flakes that ruin dish aroma.
                     </p>
                 </div>
 
                 <!-- Pain Point 3 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-all">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-500 transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-xl mb-4 font-bold">
                         <i class="fa-solid fa-chart-line-down"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Unpredictable Quality & Waste</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed">
+                    <p class="text-sm font-medium text-slate-600 leading-relaxed">
                         Purchasing whole coconuts leads to spoilage, bad yields, labor shortages, and inconsistent gravy texture in commercial catering.
                     </p>
                 </div>
@@ -276,19 +286,19 @@
     <section class="py-16 bg-slate-100" id="products">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-10">
-                <span class="text-xs font-bold text-brand-700 uppercase tracking-wider bg-brand-100 px-3 py-1 rounded-full">Product Range</span>
+                <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider bg-emerald-200 px-3.5 py-1.5 rounded-full border border-emerald-300">Product Range</span>
                 <h2 class="text-3xl font-black text-slate-900 mt-2">Explore PTF Product Portfolio</h2>
-                <p class="text-slate-600 mt-1">Freshly grated coconut and quality food staples tailored for households and commercial businesses.</p>
+                <p class="text-slate-600 font-medium mt-1">Freshly grated coconut and quality food staples tailored for households and commercial businesses.</p>
             </div>
 
             <!-- Product Category Selector -->
             <div class="flex justify-center mb-8">
-                <div class="inline-flex bg-slate-200 p-1.5 rounded-xl space-x-1">
-                    <button id="btnCoconut" onclick="switchProductTab('coconut')" class="px-5 py-2.5 rounded-lg font-bold text-sm transition-all bg-brand-700 text-white shadow">
-                        <i class="fa-solid fa-coconut mr-2"></i> Fresh Grated Coconut
+                <div class="inline-flex bg-slate-200 p-1.5 rounded-xl space-x-1 border border-slate-300">
+                    <button id="btnCoconut" onclick="switchProductTab('coconut')" class="px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all bg-emerald-800 text-white shadow">
+                        <i class="fa-solid fa-coconut mr-2 text-amber-300"></i> Fresh Grated Coconut
                     </button>
-                    <button id="btnDryFruits" onclick="switchProductTab('dryfruits')" class="px-5 py-2.5 rounded-lg font-bold text-sm transition-all text-slate-700 hover:text-slate-900">
-                        <i class="fa-solid fa-seedling mr-2"></i> Premium Dry Fruits
+                    <button id="btnDryFruits" onclick="switchProductTab('dryfruits')" class="px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all text-slate-700 hover:text-slate-900">
+                        <i class="fa-solid fa-seedling mr-2 text-emerald-700"></i> Premium Dry Fruits
                     </button>
                 </div>
             </div>
@@ -296,49 +306,49 @@
             <!-- Coconut Tab Content -->
             <div id="tabCoconut" class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <!-- 250g Pack -->
-                <div class="bg-white rounded-2xl p-8 border border-slate-200 hover:border-brand-500 transition-all shadow-md flex flex-col justify-between">
+                <div class="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-emerald-600 transition-all shadow-md flex flex-col justify-between">
                     <div>
                         <div class="flex justify-between items-start mb-4">
-                            <span class="bg-brand-700 text-white font-bold text-xs px-3 py-1 rounded-full">
+                            <span class="bg-emerald-800 text-white font-extrabold text-xs px-3 py-1 rounded-full">
                                 Household & Daily Use
                             </span>
-                            <span class="text-brand-700 font-black text-lg">250 Gram Pack</span>
+                            <span class="text-emerald-800 font-black text-xl">250 Gram Pack</span>
                         </div>
                         <h3 class="text-2xl font-black text-slate-900">250g Household Pack</h3>
-                        <p class="text-sm text-slate-600 mt-2">
+                        <p class="text-sm font-medium text-slate-600 mt-2">
                             Convenient size tailored for daily home cooking, chutneys, breakfast items, and small family meals.
                         </p>
-                        <ul class="mt-6 space-y-2.5 text-sm text-slate-700">
-                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-600 mr-2.5"></i> Fits easily in standard refrigerator shelves</li>
-                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-600 mr-2.5"></i> Zero prep time—open & sprinkle</li>
-                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-600 mr-2.5"></i> Retains natural milk & moist texture</li>
+                        <ul class="mt-6 space-y-2.5 text-sm font-semibold text-slate-800">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-emerald-600 text-base mr-2.5"></i> Fits easily in standard refrigerator shelves</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-emerald-600 text-base mr-2.5"></i> Zero prep time—open & sprinkle</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-emerald-600 text-base mr-2.5"></i> Retains natural milk & moist texture</li>
                         </ul>
                     </div>
-                    <a href="#order-form" class="mt-8 block text-center bg-brand-700 hover:bg-brand-800 text-white font-bold py-3.5 rounded-xl transition-all shadow">
+                    <a href="#order-form" class="mt-8 block text-center bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold py-3.5 rounded-xl transition-all shadow-md">
                         Order 250g Pack
                     </a>
                 </div>
 
                 <!-- 1kg Pack -->
-                <div class="bg-white rounded-2xl p-8 border border-slate-200 hover:border-accent-500 transition-all shadow-md flex flex-col justify-between">
+                <div class="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-accent-500 transition-all shadow-md flex flex-col justify-between">
                     <div>
                         <div class="flex justify-between items-start mb-4">
-                            <span class="bg-accent-600 text-white font-bold text-xs px-3 py-1 rounded-full">
+                            <span class="bg-accent-600 text-white font-extrabold text-xs px-3 py-1 rounded-full">
                                 Bulk Commercial Pack
                             </span>
-                            <span class="text-accent-600 font-black text-lg">1 KG Bulk Pack</span>
+                            <span class="text-accent-600 font-black text-xl">1 KG Bulk Pack</span>
                         </div>
                         <h3 class="text-2xl font-black text-slate-900">1kg Commercial Pack</h3>
-                        <p class="text-sm text-slate-600 mt-2">
+                        <p class="text-sm font-medium text-slate-600 mt-2">
                             Heavy-duty, value-optimized pack tailored for high-volume commercial cooking with guaranteed freshness.
                         </p>
-                        <ul class="mt-6 space-y-2.5 text-sm text-slate-700">
-                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 mr-2.5"></i> Restaurants, Caterers & Sweet Makers</li>
-                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 mr-2.5"></i> Eliminates coconut waste & kitchen labor</li>
-                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 mr-2.5"></i> Scheduled delivery & bulk pricing</li>
+                        <ul class="mt-6 space-y-2.5 text-sm font-semibold text-slate-800">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 text-base mr-2.5"></i> Restaurants, Caterers & Sweet Makers</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 text-base mr-2.5"></i> Eliminates coconut waste & kitchen labor</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-accent-600 text-base mr-2.5"></i> Scheduled delivery & bulk pricing</li>
                         </ul>
                     </div>
-                    <a href="#order-form" class="mt-8 block text-center bg-accent-600 hover:bg-accent-700 text-white font-bold py-3.5 rounded-xl transition-all shadow">
+                    <a href="#order-form" class="mt-8 block text-center bg-accent-600 hover:bg-accent-700 text-white font-extrabold py-3.5 rounded-xl transition-all shadow-md">
                         Order 1kg Commercial Pack
                     </a>
                 </div>
@@ -347,25 +357,25 @@
             <!-- Dry Fruits Tab Content (Hidden by default) -->
             <div id="tabDryFruits" class="hidden grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
                 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-md">
-                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-800 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
                         <i class="fa-solid fa-bowl-rice"></i>
                     </div>
                     <h4 class="font-bold text-slate-900 text-lg">Premium Cashews & Almonds</h4>
-                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">Handpicked, crisp, and high-grade nuts suitable for sweets, baking, and direct retail.</p>
+                    <p class="text-xs font-semibold text-slate-600 mt-1 leading-relaxed">Handpicked, crisp, and high-grade nuts suitable for sweets, baking, and direct retail.</p>
                 </div>
                 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-md">
-                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-800 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
                         <i class="fa-solid fa-jar"></i>
                     </div>
                     <h4 class="font-bold text-slate-900 text-lg">Raisins & Seedless Dates</h4>
-                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">Cleaned, naturally sweet, and free from artificial glazes for commercial sweet making.</p>
+                    <p class="text-xs font-semibold text-slate-600 mt-1 leading-relaxed">Cleaned, naturally sweet, and free from artificial glazes for commercial sweet making.</p>
                 </div>
                 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-md">
-                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-800 rounded-xl flex items-center justify-center text-xl mb-3 font-bold">
                         <i class="fa-solid fa-box-open"></i>
                     </div>
                     <h4 class="font-bold text-slate-900 text-lg">Custom Bulk Dry Fruit Mixes</h4>
-                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">Tailored packaging and volume distribution for festival gifting and commercial kitchens.</p>
+                    <p class="text-xs font-semibold text-slate-600 mt-1 leading-relaxed">Tailored packaging and volume distribution for festival gifting and commercial kitchens.</p>
                 </div>
             </div>
         </div>
@@ -374,41 +384,41 @@
     <section class="py-16 bg-white border-y border-slate-200" id="calculator">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-10">
-                <span class="text-xs font-bold text-brand-700 uppercase tracking-wider bg-brand-50 px-3 py-1 rounded-full">Interactive Tool</span>
+                <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">Interactive Tool</span>
                 <h2 class="text-3xl font-black text-slate-900 mt-2">Estimate Your Kitchen Requirements</h2>
-                <p class="text-slate-600 mt-1">Select your usage profile to see recommended quantity and estimate savings in kitchen labor.</p>
+                <p class="text-slate-600 font-medium mt-1">Select your usage profile to see recommended quantity and estimate savings in kitchen labor.</p>
             </div>
 
-            <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-lg grid md:grid-cols-12 gap-8 items-center">
+            <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border-2 border-slate-200 shadow-lg grid md:grid-cols-12 gap-8 items-center">
                 <div class="md:col-span-7 space-y-5">
                     <div>
-                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">1. Select Your Kitchen Category</label>
+                        <label class="block text-xs font-extrabold text-slate-800 uppercase tracking-wider mb-2">1. Select Your Kitchen Category</label>
                         <div class="grid grid-cols-2 gap-2">
-                            <button onclick="setCalcCategory('home', this)" class="calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-brand-600 bg-brand-700 text-white">Home Household</button>
-                            <button onclick="setCalcCategory('restaurant', this)" class="calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-slate-300 bg-white text-slate-700">Restaurant / Café</button>
-                            <button onclick="setCalcCategory('caterer', this)" class="calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-slate-300 bg-white text-slate-700">Caterer / Events</button>
-                            <button onclick="setCalcCategory('sweet', this)" class="calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-slate-300 bg-white text-slate-700">Sweet Shop / Bakery</button>
+                            <button onclick="setCalcCategory('home', this)" class="calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-extrabold border-2 border-emerald-700 bg-emerald-800 text-white">Home Household</button>
+                            <button onclick="setCalcCategory('restaurant', this)" class="calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-bold border-2 border-slate-300 bg-white text-slate-800">Restaurant / Café</button>
+                            <button onclick="setCalcCategory('caterer', this)" class="calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-bold border-2 border-slate-300 bg-white text-slate-800">Caterer / Events</button>
+                            <button onclick="setCalcCategory('sweet', this)" class="calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-bold border-2 border-slate-300 bg-white text-slate-800">Sweet Shop / Bakery</button>
                         </div>
                     </div>
 
                     <div>
                         <div class="flex justify-between items-center mb-1">
-                            <label class="text-xs font-bold text-slate-700 uppercase tracking-wider">2. Expected Daily / Weekly Requirement</label>
-                            <span id="calcVolLabel" class="text-sm font-extrabold text-brand-700">2 Packs (500g)</span>
+                            <label class="text-xs font-extrabold text-slate-800 uppercase tracking-wider">2. Expected Daily / Weekly Requirement</label>
+                            <span id="calcVolLabel" class="text-sm font-black text-emerald-800">2 Packs (500g)</span>
                         </div>
-                        <input type="range" id="calcSlider" min="1" max="50" value="2" oninput="updateCalcValues()" class="w-full accent-brand-600">
+                        <input type="range" id="calcSlider" min="1" max="50" value="2" oninput="updateCalcValues()" class="w-full accent-emerald-700 h-2 bg-slate-200 rounded-lg cursor-pointer">
                     </div>
                 </div>
 
-                <div class="md:col-span-5 bg-white p-6 rounded-xl border border-slate-200 text-center space-y-4">
-                    <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block">Recommended Package</span>
+                <div class="md:col-span-5 bg-white p-6 rounded-xl border-2 border-slate-200 text-center space-y-4 shadow-sm">
+                    <span class="text-xs font-extrabold text-slate-500 uppercase tracking-wider block">Recommended Package</span>
                     <div id="calcRecPack" class="text-xl font-black text-slate-900">250g Household Packs</div>
-                    <div class="py-2 border-y border-slate-100">
-                        <span class="text-xs text-slate-500">Estimated Labor Saved Daily</span>
-                        <div id="calcLaborSaved" class="text-2xl font-black text-emerald-600">~25 Mins</div>
+                    <div class="py-2 border-y border-slate-200">
+                        <span class="text-xs font-bold text-slate-500">Estimated Labor Saved Daily</span>
+                        <div id="calcLaborSaved" class="text-2xl font-black text-emerald-700">~25 Mins</div>
                     </div>
-                    <button onclick="calcOrderRedirect()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg text-sm shadow transition-all">
-                        <i class="fa-brands fa-whatsapp mr-1.5"></i> WhatsApp Order Estimate
+                    <button onclick="calcOrderRedirect()" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-black py-3 rounded-xl text-sm shadow transition-all">
+                        <i class="fa-brands fa-whatsapp text-lg mr-1.5"></i> WhatsApp Order Estimate
                     </button>
                 </div>
             </div>
@@ -420,86 +430,86 @@
             <div class="grid lg:grid-cols-12 gap-10 items-center">
                 
                 <div class="lg:col-span-6 space-y-6">
-                    <span class="text-xs font-bold text-brand-700 uppercase tracking-wider bg-brand-100 px-3 py-1 rounded-full">Our Core Differentiator</span>
+                    <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">Our Core Differentiator</span>
                     <h2 class="text-3xl font-black text-slate-900">
-                        Traditional Grating Method, <br><span class="text-brand-700">100% Milk & Fiber Retained</span>
+                        Traditional Grating Method, <br><span class="text-emerald-800">100% Milk & Fiber Retained</span>
                     </h2>
-                    <p class="text-slate-600 leading-relaxed">
-                        What makes <strong>PTF Fresh Grated Coconut</strong> stand apart is our traditional scraper process. We do not extract fat or drain natural milk before packing. You get a completely authentic, homemade experience every single time.
+                    <p class="text-slate-700 font-medium leading-relaxed">
+                        What makes <strong class="text-slate-900">PTF Fresh Grated Coconut</strong> stand apart is our traditional scraper process. We do not extract fat or drain natural milk before packing. You get a completely authentic, homemade experience every single time.
                     </p>
 
                     <div class="space-y-4">
-                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200">
-                            <div class="bg-brand-100 text-brand-700 rounded-lg p-2.5 font-bold">
+                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="bg-emerald-100 text-emerald-800 rounded-lg p-2.5 font-bold">
                                 <i class="fa-solid fa-leaf text-lg"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-base">Pure & Natural Composition</h4>
-                                <p class="text-xs text-slate-500 mt-0.5">Zero added colors, zero artificial flavors, zero chemical preservatives.</p>
+                                <p class="text-xs font-semibold text-slate-600 mt-0.5">Zero added colors, zero artificial flavors, zero chemical preservatives.</p>
                             </div>
                         </div>
 
-                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200">
-                            <div class="bg-brand-100 text-brand-700 rounded-lg p-2.5 font-bold">
+                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="bg-emerald-100 text-emerald-800 rounded-lg p-2.5 font-bold">
                                 <i class="fa-solid fa-check-double text-lg"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-base">Consistent Fine Texture</h4>
-                                <p class="text-xs text-slate-500 mt-0.5">Perfect for rich curries, coconut chutney, laddoos, karanji, and South Indian dishes.</p>
+                                <p class="text-xs font-semibold text-slate-600 mt-0.5">Perfect for rich curries, coconut chutney, laddoos, karanji, and South Indian dishes.</p>
                             </div>
                         </div>
 
-                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200">
-                            <div class="bg-brand-100 text-brand-700 rounded-lg p-2.5 font-bold">
+                        <div class="flex items-start space-x-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="bg-emerald-100 text-emerald-800 rounded-lg p-2.5 font-bold">
                                 <i class="fa-solid fa-snowflake text-lg"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-base">Hygienic Cold-Chain Ready</h4>
-                                <p class="text-xs text-slate-500 mt-0.5">Grated daily in our hygienic Pune unit. Keep refrigerated or frozen as instructed.</p>
+                                <p class="text-xs font-semibold text-slate-600 mt-0.5">Grated daily in our hygienic Pune unit. Keep refrigerated or frozen as instructed.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Technical Specification Table (Derived from Drive PDF) -->
-                <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-xl">
-                    <h3 class="text-xl font-bold text-slate-900 mb-5 flex items-center justify-between border-b pb-4">
+                <!-- Technical Specification Table (Derived from Drive Data) -->
+                <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-slate-200 shadow-xl">
+                    <h3 class="text-xl font-black text-slate-900 mb-5 flex items-center justify-between border-b pb-4">
                         <span>Technical Product Specifications</span>
-                        <span class="text-xs font-semibold text-emerald-800 bg-emerald-100 px-2.5 py-1 rounded-md">Grade A Quality</span>
+                        <span class="text-xs font-bold text-emerald-900 bg-emerald-100 border border-emerald-300 px-3 py-1 rounded-md">Grade A Quality</span>
                     </h3>
 
                     <dl class="divide-y divide-slate-100 text-sm">
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Product Name</dt>
-                            <dd class="col-span-2 font-bold text-slate-900">Fresh Grated Coconut</dd>
+                            <dt class="font-bold text-slate-600">Product Name</dt>
+                            <dd class="col-span-2 font-black text-slate-900">Fresh Grated Coconut</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Ingredients</dt>
+                            <dt class="font-bold text-slate-600">Ingredients</dt>
                             <dd class="col-span-2 font-bold text-slate-900">100% Pure Fresh Coconut</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Form & Color</dt>
-                            <dd class="col-span-2 text-slate-800">Freshly Grated • Natural White</dd>
+                            <dt class="font-bold text-slate-600">Form & Color</dt>
+                            <dd class="col-span-2 text-slate-800 font-semibold">Freshly Grated • Natural White</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Additives</dt>
-                            <dd class="col-span-2 text-emerald-700 font-bold">No Added Colours • No Artificial Flavours</dd>
+                            <dt class="font-bold text-slate-600">Additives</dt>
+                            <dd class="col-span-2 text-emerald-800 font-black">No Added Colours • No Artificial Flavours</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Pack Options</dt>
-                            <dd class="col-span-2 font-bold text-brand-700">250g Household Pack | 1kg Bulk Commercial Pack</dd>
+                            <dt class="font-bold text-slate-600">Pack Options</dt>
+                            <dd class="col-span-2 font-black text-emerald-800">250g Household Pack | 1kg Bulk Commercial Pack</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">Storage</dt>
-                            <dd class="col-span-2 text-slate-800">Keep refrigerated or frozen as recommended</dd>
+                            <dt class="font-bold text-slate-600">Storage</dt>
+                            <dd class="col-span-2 text-slate-800 font-semibold">Keep refrigerated or frozen as recommended</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">FSSAI Lic. No.</dt>
-                            <dd class="col-span-2 font-mono text-slate-900 font-bold">11523080000007</dd>
+                            <dt class="font-bold text-slate-600">FSSAI Lic. No.</dt>
+                            <dd class="col-span-2 font-mono text-slate-900 font-black">11523080000007</dd>
                         </div>
                         <div class="py-3 grid grid-cols-3">
-                            <dt class="font-semibold text-slate-500">GST Registration</dt>
-                            <dd class="col-span-2 font-mono text-slate-900">27CBMPN6311E1ZO</dd>
+                            <dt class="font-bold text-slate-600">GST Registration</dt>
+                            <dd class="col-span-2 font-mono text-slate-900 font-bold">27CBMPN6311E1ZO</dd>
                         </div>
                     </dl>
                 </div>
@@ -511,52 +521,63 @@
     <section class="py-16 bg-slate-900 text-white" id="about">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
-                <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">Supply Ecosystem</span>
+                <span class="text-xs font-bold text-emerald-300 uppercase tracking-wider bg-emerald-950 px-3.5 py-1.5 rounded-full border border-emerald-800">Supply Ecosystem</span>
                 <h2 class="text-3xl font-black mt-3">Who Uses PTF Fresh Grated Coconut?</h2>
-                <p class="text-slate-400 mt-1">Empowering diverse culinary businesses with guaranteed quality and prompt supply across Pune.</p>
+                <p class="text-slate-300 font-medium mt-1">Empowering diverse culinary businesses with guaranteed quality and prompt supply across Pune.</p>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="p-5 rounded-xl bg-slate-800 border border-slate-700 text-center">
                     <i class="fa-solid fa-utensils text-2xl text-emerald-400 mb-3"></i>
-                    <h4 class="font-bold text-base">Restaurants & Hotels</h4>
-                    <p class="text-xs text-slate-400 mt-1">Consistent gravy thickness and authentic flavor.</p>
+                    <h4 class="font-bold text-base text-white">Restaurants & Hotels</h4>
+                    <p class="text-xs text-slate-300 font-medium mt-1">Consistent gravy thickness and authentic flavor.</p>
                 </div>
 
                 <div class="p-5 rounded-xl bg-slate-800 border border-slate-700 text-center">
                     <i class="fa-solid fa-users-rays text-2xl text-emerald-400 mb-3"></i>
-                    <h4 class="font-bold text-base">Caterers & Events</h4>
-                    <p class="text-xs text-slate-400 mt-1">High volume daily capacity for weddings and functions.</p>
+                    <h4 class="font-bold text-base text-white">Caterers & Events</h4>
+                    <p class="text-xs text-slate-300 font-medium mt-1">High volume daily capacity for weddings and functions.</p>
                 </div>
 
                 <div class="p-5 rounded-xl bg-slate-800 border border-slate-700 text-center">
                     <i class="fa-solid fa-cookie-bite text-2xl text-emerald-400 mb-3"></i>
-                    <h4 class="font-bold text-base">Sweet Shops & Bakeries</h4>
-                    <p class="text-xs text-slate-400 mt-1">Moist coconut ideal for laddoos, karanji, and desserts.</p>
+                    <h4 class="font-bold text-base text-white">Sweet Shops & Bakeries</h4>
+                    <p class="text-xs text-slate-300 font-medium mt-1">Moist coconut ideal for laddoos, karanji, and desserts.</p>
                 </div>
 
                 <div class="p-5 rounded-xl bg-slate-800 border border-slate-700 text-center">
                     <i class="fa-solid fa-house-chimney text-2xl text-emerald-400 mb-3"></i>
-                    <h4 class="font-bold text-base">Homes & Cloud Kitchens</h4>
-                    <p class="text-xs text-slate-400 mt-1">Hygienic, zero-prep cooking without blade dangers.</p>
+                    <h4 class="font-bold text-base text-white">Homes & Cloud Kitchens</h4>
+                    <p class="text-xs text-slate-300 font-medium mt-1">Hygienic, zero-prep cooking without blade dangers.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slate-950 text-slate-400 text-sm py-12 border-t border-slate-800">
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-300 text-sm py-12 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-12 gap-8 pb-8 border-b border-slate-800">
                 
                 <div class="md:col-span-5 space-y-3">
                     <div class="flex items-center space-x-3">
-                        <div class="bg-brand-600 text-white font-black text-lg px-2.5 py-1 rounded">PTF</div>
-                        <span class="text-white font-bold text-lg">Prakrut Foods</span>
+                        <div class="bg-emerald-800 p-2 rounded-xl flex items-center justify-center border border-emerald-600">
+                            <svg class="w-7 h-7" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" rx="18" fill="#14532d"/>
+                                <circle cx="50" cy="50" r="32" fill="#FAF7F2" stroke="#f97316" stroke-width="4"/>
+                                <path d="M38 52C38 42 45 35 55 35C65 35 70 42 70 52C70 65 52 68 50 72C48 68 38 65 38 52Z" fill="#15803d"/>
+                                <text x="50" y="58" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">PTF</text>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-white font-black text-lg block">Prakrut Foods</span>
+                            <span class="text-xs text-emerald-400 font-bold">Taste Fresh. Cook Pure.</span>
+                        </div>
                     </div>
-                    <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
-                        Taste Fresh. Cook Pure. We manufacture and supply hygienically grated coconut packed to preserve natural milk, texture, and authentic taste.
+                    <p class="text-xs text-slate-300 leading-relaxed max-w-sm font-medium">
+                        We manufacture and supply hygienically grated coconut packed to preserve natural milk, texture, and authentic taste for homes and food businesses.
                     </p>
-                    <div class="text-xs text-slate-400 space-y-1">
+                    <div class="text-xs text-slate-300 font-semibold space-y-1">
                         <p><strong>FSSAI License No:</strong> 11523080000007</p>
                         <p><strong>GSTIN:</strong> 27CBMPN6311E1ZO</p>
                     </div>
@@ -564,24 +585,24 @@
 
                 <div class="md:col-span-4 space-y-2">
                     <h4 class="text-white font-bold text-sm">Official Address & Contact</h4>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        <i class="fa-solid fa-location-dot text-brand-500 mr-1.5"></i>
+                    <p class="text-xs text-slate-300 font-medium leading-relaxed">
+                        <i class="fa-solid fa-location-dot text-emerald-400 mr-1.5"></i>
                         Ishwar Apartment, Bhusari Colony, Opp. Eklavya College, Kothrud, Pune - 411038, Maharashtra, India.
                     </p>
-                    <p class="text-xs text-slate-400">
-                        <i class="fa-solid fa-user text-brand-500 mr-1.5"></i> Founder: Yogesh Nadgauda
+                    <p class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-user text-emerald-400 mr-1.5"></i> Founder: Yogesh Nadgauda
                     </p>
-                    <p class="text-xs text-slate-400">
-                        <i class="fa-solid fa-envelope text-brand-500 mr-1.5"></i> prakrutfoods@gmail.com
+                    <p class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-envelope text-emerald-400 mr-1.5"></i> prakrutfoods@gmail.com
                     </p>
-                    <p class="text-xs text-slate-400">
-                        <i class="fa-solid fa-phone text-brand-500 mr-1.5"></i> +91 8380069530
+                    <p class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-phone text-emerald-400 mr-1.5"></i> +91 8380069530
                     </p>
                 </div>
 
                 <div class="md:col-span-3 space-y-3">
                     <h4 class="text-white font-bold text-sm">Instant WhatsApp Order</h4>
-                    <p class="text-xs text-slate-400">Click below to chat directly with founder Yogesh Nadgauda for immediate order dispatch.</p>
+                    <p class="text-xs text-slate-300 font-medium">Click below to chat directly with founder Yogesh Nadgauda for immediate order dispatch.</p>
                     <a href="https://wa.me/918380069530?text=Hi%20PTF,%20I%20am%20interested%20in%20ordering%20fresh%20grated%20coconut." target="_blank" class="inline-flex items-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-4 py-2.5 rounded-lg transition-all">
                         <i class="fa-brands fa-whatsapp text-base mr-2"></i> Connect on WhatsApp
                     </a>
@@ -589,15 +610,15 @@
 
             </div>
 
-            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 font-medium">
                 <p>&copy; 2026 PTF - Prakrut Foods. All rights reserved.</p>
-                <p class="mt-2 sm:mt-0">Conversion Engine Blueprint Applied</p>
+                <p class="mt-2 sm:mt-0">High-Contrast Direct Response Design Engine Applied</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Form Submission Logic
+        // Lead Form Submission Handler
         function handleFormSubmit(event) {
             event.preventDefault();
             
@@ -606,11 +627,9 @@
             const type = document.getElementById('userType').value;
             const pack = document.getElementById('packSize').value;
 
-            // Display success message
             document.getElementById('leadForm').classList.add('hidden');
             document.getElementById('formSuccess').classList.remove('hidden');
 
-            // Format WhatsApp pre-filled text
             const waText = encodeURIComponent(`Hello PTF,\nNew Supply Inquiry:\n- Name: ${name}\n- Phone: ${phone}\n- Segment: ${type}\n- Product/Pack: ${pack}`);
             
             setTimeout(() => {
@@ -628,13 +647,13 @@
             if (type === 'coconut') {
                 coconutTab.classList.remove('hidden');
                 dryFruitsTab.classList.add('hidden');
-                btnCoconut.className = "px-5 py-2.5 rounded-lg font-bold text-sm transition-all bg-brand-700 text-white shadow";
-                btnDryFruits.className = "px-5 py-2.5 rounded-lg font-bold text-sm transition-all text-slate-700 hover:text-slate-900";
+                btnCoconut.className = "px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all bg-emerald-800 text-white shadow";
+                btnDryFruits.className = "px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all text-slate-700 hover:text-slate-900";
             } else {
                 coconutTab.classList.add('hidden');
                 dryFruitsTab.classList.remove('hidden');
-                btnCoconut.className = "px-5 py-2.5 rounded-lg font-bold text-sm transition-all text-slate-700 hover:text-slate-900";
-                btnDryFruits.className = "px-5 py-2.5 rounded-lg font-bold text-sm transition-all bg-brand-700 text-white shadow";
+                btnCoconut.className = "px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all text-slate-700 hover:text-slate-900";
+                btnDryFruits.className = "px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all bg-emerald-800 text-white shadow";
             }
         }
 
@@ -644,9 +663,9 @@
         function setCalcCategory(cat, btnElement) {
             calcCategory = cat;
             document.querySelectorAll('.calc-cat-btn').forEach(btn => {
-                btn.className = "calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-slate-300 bg-white text-slate-700";
+                btn.className = "calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-bold border-2 border-slate-300 bg-white text-slate-800";
             });
-            btnElement.className = "calc-cat-btn px-3 py-2 rounded-lg text-xs font-bold border border-brand-600 bg-brand-700 text-white";
+            btnElement.className = "calc-cat-btn px-3 py-2.5 rounded-lg text-xs font-extrabold border-2 border-emerald-700 bg-emerald-800 text-white";
             
             const slider = document.getElementById('calcSlider');
             if (cat === 'home') {
